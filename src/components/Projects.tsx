@@ -163,7 +163,9 @@ const Projects: React.FC<ProjectsProps> = ({ mode }) => {
             {projects.map((project, index) => (
               <div
                 key={project.id}
-                className="bg-gray-50 dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
+                className="rounded-xl overflow-hidden transition-all duration-300 transform hover:scale-105
+  bg-white/10 dark:bg-white/5 backdrop-blur-lg border border-white/20 shadow-lg hover:shadow-2xl"
+
                 style={{ animationDelay: `${index * 100}ms` }}
               >
                 <div className="h-48 overflow-hidden">
