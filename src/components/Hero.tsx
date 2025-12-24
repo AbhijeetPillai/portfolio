@@ -81,10 +81,16 @@ const Hero: React.FC<HeroProps> = ({ mode, onContactClick }) => {
             </button>
             
             {mode === 'gaming' && (
+                <a
+                href="https://discord.com/channels/@me"
+                target="_blank"
+                rel="noopener noreferrer"
+                >
               <button className="px-8 py-4 rounded-full font-semibold text-lg border-2 border-green-400 text-green-400 hover:bg-green-600 hover:text-white transition-all duration-300 transform hover:scale-105">
                 <ExternalLink className="mr-2" size={20} />
                 Join Discord
               </button>
+            </a>
             )}
           </div>
         </div>
