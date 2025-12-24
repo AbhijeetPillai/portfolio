@@ -23,20 +23,20 @@ const Games: React.FC<GamesProps> = ({ mode }) => {
     {
       id: 1,
       title: "Valorant",
-      cover: "https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg",
+      cover: "https://japannext.fr/cdn/shop/articles/Valorant-Wallpaper-Boys-Rainbow-Display_a94881d6-c6a5-4245-9da6-8f07c55a48d1.jpg?v=1760444880&width=1500",
       platforms: ["PC"],
       rating: 5,
-      favoriteCharacter: "Sage",
+      favoriteCharacter: "Neon",
       review: "Tactical FPS perfection. The agent abilities add incredible depth to traditional shooting mechanics.",
       genre: "Tactical FPS"
     },
     {
       id: 2,
-      title: "Civilization VI",
-      cover: "https://images.pexels.com/photos/163064/play-stone-network-networked-interactive-163064.jpeg",
+      title: "The Last of Us",
+      cover: "https://upload.wikimedia.org/wikipedia/en/4/46/Video_Game_Cover_-_The_Last_of_Us.jpg",
       platforms: ["PC", "Console"],
       rating: 5,
-      favoriteCharacter: "Cleopatra",
+      favoriteCharacter: "",
       review: "The ultimate strategy experience. Every decision matters across thousands of years of civilization.",
       genre: "Turn-based Strategy"
     },
@@ -47,13 +47,13 @@ const Games: React.FC<GamesProps> = ({ mode }) => {
       platforms: ["PC"],
       rating: 4,
       favoriteCharacter: "AWPer",
-      review: "Classic competitive shooter refined to perfection. Every match is a lesson in precision and teamwork.",
+      review: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/header.jpg?t=1749053861",
       genre: "Competitive FPS"
     },
     {
       id: 4,
       title: "The Witcher 3",
-      cover: "https://images.pexels.com/photos/1293261/pexels-photo-1293261.jpeg",
+      cover: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ad9240e088f953a84aee814034c50a6a92bf4516/header.jpg?t=1756366569",
       platforms: ["PC", "Console"],
       rating: 5,
       favoriteCharacter: "Geralt",
@@ -63,7 +63,7 @@ const Games: React.FC<GamesProps> = ({ mode }) => {
     {
       id: 5,
       title: "Rocket League",
-      cover: "https://images.pexels.com/photos/3945313/pexels-photo-3945313.jpeg",
+      cover: "https://variety.com/wp-content/uploads/2018/06/rocket-league.jpg",
       platforms: ["PC", "Console", "Mobile"],
       rating: 4,
       favoriteCharacter: "Octane",
@@ -73,7 +73,7 @@ const Games: React.FC<GamesProps> = ({ mode }) => {
     {
       id: 6,
       title: "Apex Legends",
-      cover: "https://images.pexels.com/photos/4009599/pexels-photo-4009599.jpeg",
+      cover: "https://www.malwarebytes.com/wp-content/uploads/sites/2/2024/03/Apex_legends_logo.png",
       platforms: ["PC", "Console", "Mobile"],
       rating: 4,
       favoriteCharacter: "Wraith",
@@ -83,7 +83,7 @@ const Games: React.FC<GamesProps> = ({ mode }) => {
     {
       id: 7,
       title: "Chess.com",
-      cover: "https://images.pexels.com/photos/163064/play-stone-network-networked-interactive-163064.jpeg",
+      cover: "https://play-lh.googleusercontent.com/vuroi9wouqDzcFSh68TZYg5e7DXTISmS0_Pxm3ewFTrDQ_pPiHipMkGKyM8hj3HfikLx=w3840-h2160-rw",
       platforms: ["PC", "Mobile"],
       rating: 5,
       favoriteCharacter: "Queen",
@@ -93,7 +93,7 @@ const Games: React.FC<GamesProps> = ({ mode }) => {
     {
       id: 8,
       title: "Minecraft",
-      cover: "https://images.pexels.com/photos/1557937/pexels-photo-1557937.jpeg",
+      cover: "https://static.wikia.nocookie.net/minecraft/images/9/94/MSPromotionalBackground.jpg/revision/latest?cb=20190113141352",
       platforms: ["PC", "Console", "Mobile"],
       rating: 4,
       favoriteCharacter: "Steve",
